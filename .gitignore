@@ -10,7 +10,6 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
-dev-dist
 *.local
 
 # Editor directories and files
@@ -23,3 +22,7 @@ dev-dist
 *.njsproj
 *.sln
 *.sw?
+
+# Serwist
+public/sw*
+public/swe-worker*
