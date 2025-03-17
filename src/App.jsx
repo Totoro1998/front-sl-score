@@ -12,6 +12,7 @@ function App() {
   useEffect(() => {
     const loadSerwist = async () => {
       if ("serviceWorker" in navigator) {
+        alert("serviceWorker");
         const serwist = await getSerwist();
         serwist?.addEventListener("installed", () => {
           console.log("Serwist installed!");
