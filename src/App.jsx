@@ -2,6 +2,7 @@ import "./App.css";
 
 import { useEffect } from "react";
 import { getSerwist } from "virtual:serwist";
+import "@khmyznikov/pwa-install";
 
 import viteLogo from "/vite.svg";
 
@@ -24,6 +25,7 @@ function App() {
   return (
     <>
       <div>
+        <pwa-install></pwa-install>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
