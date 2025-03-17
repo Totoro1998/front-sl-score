@@ -23,8 +23,7 @@ export default defineConfig({
       },
 
       workbox: {
-        globPatterns: [],
-        runtimeCaching: [],
+        globPatterns: ["**/*.{js,css,html,svg,png,ico}"],
         cleanupOutdatedCaches: true,
         clientsClaim: true,
       },
